@@ -2,4 +2,13 @@ This is a library of the tools i use for web development, javascript for being s
 
 2014-01-15 Initial commit
 * Retrieve get variables in url
+    Get_Var("getVariableName")
+    or
+    var Get_Var(); returns an object
 * Encrypting
+    var encrypt = new Encryption();
+    var key = encrypt.GenerateKey();
+    var string = "hello world";
+
+    var encryptedStr = encrypt.Encrypt(string, key);
+    var decryptedStr = encrypt.Decrypt(encryptedStr, key);
