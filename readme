@@ -1,11 +1,12 @@
 This is a library of the tools i use for web development, javascript for being specific.
 
 2014-01-15 Initial commit
-* Retrieve get variables in url
-    Get_Var("getVariableName")
+* Retrieve get variables in the url
+    Get_Var("getVariableName") for specifik
     or
-    var Get_Var(); returns an object
+    var Get_Var(); returns an complete object
 * Encrypting
+	- Should only be used for non-sensative data, users can still decrypt it! -
     var encrypt = new Encryption();
     var key = encrypt.GenerateKey();
     var string = "hello world";
